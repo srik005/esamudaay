@@ -242,7 +242,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       Icons.star,
                                       color: Color(0xff00796B),
                                     ),
-                                    itemCount: items.length,
+                                    itemCount: 5,
                                     rating: double.parse(
                                         queryList[index]["rating"].toString()),
                                     itemSize: 30,
